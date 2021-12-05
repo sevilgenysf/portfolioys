@@ -4,22 +4,22 @@
 
 .about-top {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
 .picture {
-    height: 420px;
+    height: 520px;
 }
 
 .about-info {
-    font-size: 24px;
+    font-size: 40px;
 }
 
 .info-name {
     color: blue;
-    font-size: 32px;
-    font-weight: 600;
+    font-size: 48px;
+    font-weight: 800;
 }
 
 @media only screen and (max-width: 720px) {
@@ -34,10 +34,15 @@
     }
     
     .about-info {
+        margin-top: 100px;
         font-size: 20px;
     }
 
     .info-name {
         font-size: 26px;
+    }
+
+    .social-contact {
+        margin-bottom: 50px;
     }
 }

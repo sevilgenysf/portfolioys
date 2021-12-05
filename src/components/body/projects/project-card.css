@@ -1,7 +1,7 @@
 .project-card {
     flex: 1;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     margin: 16px 0px;
     padding: 8px 0px;
@@ -80,11 +80,18 @@
     }
 
     .project-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin-left: 0px;
         margin-top: 12px;
     }
 
     .project-tags {
         max-width: 100%;
+    }
+
+    .p-about {
+        text-align: center;
     }
 }

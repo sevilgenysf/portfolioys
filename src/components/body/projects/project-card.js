@@ -21,7 +21,7 @@ function ProjectCard({ project }) {
                          </div>
                      </a>}
                 </div>
-                <p>{project.about}</p>
+                <p className="p-about">{project.about}</p>
                 <div className="project-tags">
                     {project.tags.map((tag) =>{
                         return(
