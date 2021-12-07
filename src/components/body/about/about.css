@@ -1,48 +1,48 @@
 .about {
-    padding-bottom: 48px;
+  padding-bottom: 48px;
 }
 
 .about-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .picture {
-    height: 520px;
+  height: 550px;
 }
 
 .about-info {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .info-name {
-    color: blue;
-    font-size: 48px;
-    font-weight: 800;
+  color: blue;
+  font-size: 48px;
+  font-weight: 800;
 }
 
 @media only screen and (max-width: 720px) {
-    .about-top {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .picture {
-        height: 280px;
-    }
-    
-    .about-info {
-        margin-top: 100px;
-        font-size: 20px;
-    }
+  .about-top {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .info-name {
-        font-size: 26px;
-    }
+  .picture {
+    height: 280px;
+  }
 
-    .social-contact {
-        margin-bottom: 50px;
-    }
+  .about-info {
+    margin-top: 100px;
+    font-size: 20px;
+  }
+
+  .info-name {
+    font-size: 26px;
+  }
+
+  .social-contact {
+    margin-bottom: 50px;
+  }
 }
