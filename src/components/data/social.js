@@ -3,42 +3,42 @@ export const SocialData =
     {
       platform:
         "Instagram",
-      link: "www.instagram.com",
+      link: "https://www.instagram.com/sevilgenysff/",
       icon: require("../../assets/icons/instagram.png")
         .default,
     },
     {
       platform:
         "Facebook",
-      link: "www.linkedin.com",
+      link: "",
       icon: require("../../assets/icons/facebook.png")
         .default,
     },
     {
       platform:
         "Github",
-      link: "www.github.com",
+      link: "https://github.com/sevilgenysf",
       icon: require("../../assets/icons/github.png")
         .default,
     },
     {
       platform:
         "Linkedin",
-      link: "www.linkedin.com",
+      link: "https://www.linkedin.com/in/yusuf-sevilgen-282b08184/",
       icon: require("../../assets/icons/linked.png")
         .default,
     },
     {
       platform:
         "Youtube",
-      link: "www.linkedin.com",
+      link: "https://www.youtube.com/channel/UCaBX_WcCTjoxuyQamHC_FIw",
       icon: require("../../assets/icons/youtube.png")
         .default,
     },
     {
       platform:
         "Twitter",
-      link: "www.linkedin.com",
+      link: "https://twitter.com/Yusuf04972450",
       icon: require("../../assets/icons/twitter.png")
         .default,
     },
