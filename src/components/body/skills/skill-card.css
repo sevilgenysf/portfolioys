@@ -4,14 +4,15 @@
     16px;
   height: 120px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: space-around;
   margin: 6px;
   border-radius: 8px;
 }
 
 .skill-icon {
   font-size: 80px;
+  margin-right: 10px;
 }
 
 .skill-name {

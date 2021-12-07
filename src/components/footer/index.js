@@ -1,11 +1,14 @@
-import React from 'react';
+import React from "react";
 
 function Footer() {
-    return (
-        <div>
-           This is Footer 
-        </div>
-    )
+  return (
+    <div>
+      Yusuf
+      SEVİLGEN
+      tarafından
+      yapılmıştır.🔥
+    </div>
+  );
 }
 
 export default Footer;
